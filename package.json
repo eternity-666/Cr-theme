@@ -1,0 +1,26 @@
+{
+  "name": "cr-theme",
+  "displayName": "Cr-theme",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "chrisli",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eternity-666/theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/My Theme-color-theme.json"
+      }
+    ]
+  }
+}
